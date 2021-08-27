@@ -73,12 +73,41 @@ nav > div > ul > li {
   color: initial;
 }
 #jon {
-  background-image: linear-gradient(
-      rgba(151, 146, 146, 0.9),
-      rgba(151, 146, 146, 0.9)
+  background-image: radial-gradient(
+      rgba(0, 0, 0, 0.9),
+      rgba(66, 65, 65, 0.9)
     ),
     url("http://2.bp.blogspot.com/-yeQweQgX-yQ/Tiw4fMqApDI/AAAAAAAACgI/22vPNtu6u0c/s1600/1235967428ZyNxGH6.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+/* protfolio */
+#protfolio-list{
+  list-style: none;
+  /* margin-top: 30px; */
+  text-decoration: none;
+  font-weight: 400;
+}
+#protfolio-list>li>a{
+  text-decoration: none;
+  color: black;
+
+}
+#protfolio-list>li{
+  padding-top: 8px;
+}
+.protfolio-img{
+  margin-top:20px;
+  height: 250px;
+  width: 400px;
+  display: block;
+  border: thin solid grey;
+  
+}
+#exp{
+  color: white;
+  background-image: linear-gradient(to top right,rgba(72, 216, 166, 0.5),rgba(238, 30, 169, 0.699)),url("https://www.pixsy.com/wp-content/uploads/2021/04/ben-sweet-2LowviVHZ-E-unsplash-1.jpeg");
 }
