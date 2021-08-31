@@ -1,146 +1,258 @@
-                    /* list-style disc*/
-                    
-                    nav>div>ul>li {
-                        list-style: disc;
-                        margin-left: 20px;
-                        margin-right: 20px;
-                        color: white;
-                    }
-                    
-                    /* hello iam jhone */
-                    
-                    #main {
-                        background-image: linear-gradient( rgba(12, 12, 14, 0.6), rgba(12, 12, 14, 0.6)), url("https://elearningindustry.com/wp-content/uploads/2018/02/8-ways-technology-improves-education.jpg");
-                        background-position: center;
-                        text-align: center;
-                        padding-top: 40px;
-                        color: white;
-                        text-transform: uppercase;
-                        font-family: "Acme", sans-serif;
-                        background-size: cover;
-                        padding-bottom: 40px;
-                    }
-                    /* text */
-                    #txt {
-                        font-size: 30px;
-                    }
-                    
-                    #jhone {
-                        font-family: Arial, Helvetica, sans-serif;
-                        font-weight:bolder;
-                        font-size: 110px;
-                        /* background-color:purple; */
-                        background-image: linear-gradient(to top right,rgb(240, 10, 140),rgba(28, 44, 182));
-                        background-size: 100%;
-                        -webkit-background-clip: text;
-                        -moz-background-clip: text;
-                        -webkit-text-fill-color: transparent; 
-                        -moz-text-fill-color: transparent;
-                    }
-                    
-                    #smith {
-                        font-size: 70px;
-                        font-family: Arial, Helvetica, sans-serif;
+/* list-style disc*/
 
-                    }
-                    
-                    #btn {
-                        text-align: center;
-                        font-size: 20px;
-                        margin-bottom: 100px;
-                        margin-top: 20px;
-                        padding-top: 10px;
-                        padding-bottom: 10px;
-                        padding-left: 60px;
-                        padding-right: 60px;
-                        background-image: linear-gradient(to top left,rgb(240, 10, 140),rgba(28, 44, 182, 0.9));
-                        background-size: 100%;
-                        text-decoration: none;
-                    }
-                    
-                    #btn:hover {
-                        text-decoration: none;
-                        transition: 0.5s;
-                        background-image: linear-gradient( 180deg,rgb(240, 10, 140),rgba(28, 44, 182, 0.9));
-                        
-                    }
-                    
-                    
-                    .links {
-                        text-decoration: none;
-                        color: initial;
-                    }
-                    
-                    #jon {
-                        background-image: radial-gradient( rgba(0, 0, 0, 0.9), rgba(66, 65, 65, 0.9)), url("http://2.bp.blogspot.com/-yeQweQgX-yQ/Tiw4fMqApDI/AAAAAAAACgI/22vPNtu6u0c/s1600/1235967428ZyNxGH6.jpg");
-                        background-position: center;
-                        background-size: cover;
-                        background-repeat: no-repeat;
-                        padding-top: 130px;
-                        padding-bottom: 130px;
-                    }
-                    /* protfolio */
-                    
-                    #protfolio-list {
-                        list-style: none;
-                        /* margin-top: 30px; */
-                        text-decoration: none;
-                        font-weight: 400;
-                    }
-                    
-                    #protfolio-list>li>a {
-                        text-decoration: none;
-                        color: black;
-                    }
-                    
-                    #protfolio-list>li {
-                        padding-top: 8px;
-                    }
-                    
-                    .protfolio-img {
-                        margin-top: 20px;
-                        height: 250px;
-                        width: 355px;
-                        display: block;
-                        border: thin solid grey;
-                    }
-                    
-                    #exp {
-                        color: white;
-                        background-image: linear-gradient(to top left, rgba(72, 216, 166, 0.6), rgba(238, 30, 169, 0.7)), url("https://www.pixsy.com/wp-content/uploads/2021/04/ben-sweet-2LowviVHZ-E-unsplash-1.jpeg");
-                        background-position: center;
-                        background-size: cover;
-                        background-repeat: no-repeat;
-                    }
-                    
-                    .exp-text{
-                    border: 10px solid white;
-                    border-top: transparent;
-                    border-right: transparent;
-                    border-bottom: transparent;
-                    padding-left: 25px;
-                    font-weight: lighter;
-                    word-spacing: 2px;
-                    }
-                    #bg-contactus{
-                        background-image: linear-gradient(360deg,rgb(55, 65, 158,0.8),rgba(55, 65, 140,0.3)),url("https://i.stack.imgur.com/chfhv.png");
-                        background-position: center;
-                        background-size: cover;
-                        background-repeat: no-repeat;
-                    }
-                    #contact-us{
-                        background-color: #222c3b;
-                        color: white;
-                    }
-                    .icons{
-                        background-image: linear-gradient(90deg ,rgb(240, 10, 140),rgba(28, 44, 182, 0.9));
-                        border: none solid transparent;
-                        padding: 12px;
-                        border-radius: 50%;
-                        margin-bottom: 20px;
-                        margin-top: 30px;
-                    }  
-                    .os-txt{
-                        font-size: small;
-                        word-spacing: 3px;
-                    }
+nav>div>ul>li {
+    list-style: disc;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+/* hello iam jhone */
+
+#main {
+    background-image: linear-gradient( rgba(12, 12, 14, 0.6), rgba(12, 12, 14, 0.6)), url("https://elearningindustry.com/wp-content/uploads/2018/02/8-ways-technology-improves-education.jpg");
+    background-position: center;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Acme", sans-serif;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+
+/* text */
+
+#txt {
+    font-size: 30px;
+}
+
+#jhone {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 110px;
+    /* background-color:purple; */
+    background-image: linear-gradient(to top right, rgb(240, 10, 140), rgba(28, 44, 182));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    word-wrap: break-word;
+}
+
+#jhone:hover {
+    transition: 1s;
+    transform: scale(120%);
+    background-image: linear-gradient(to top left, rgb(230, 29, 163), rgb(45, 71, 218));
+}
+
+#smith {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+}
+
+#btn {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-image: linear-gradient(to top left, rgb(240, 10, 140), rgba(28, 44, 182, 0.9));
+}
+
+#btn:hover {
+    text-decoration: none;
+    transform: scale(110%);
+    transition: 0.7s;
+    background-image: linear-gradient(45deg, rgb(219, 62, 151), rgba(28, 44, 182, 0.9));
+}
+
+/* second intro */
+
+#about>.row>.col-12>h1 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(104, 103, 103);
+    font-weight: bolder;
+}
+
+#about>.row>.col-12>h4 {
+    text-transform: uppercase;
+    color: rebeccapurple;
+}
+
+#progress {
+    text-transform: uppercase;
+}
+
+/* second-intro */
+
+.second-intro {
+    background-color: rgb(230, 230, 230);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.links {
+    text-decoration: none;
+    color: initial;
+}
+
+#jon {
+    background-image: radial-gradient( rgba(0, 0, 0, 0.9), rgba(66, 65, 65, 0.9)), url("http://2.bp.blogspot.com/-yeQweQgX-yQ/Tiw4fMqApDI/AAAAAAAACgI/22vPNtu6u0c/s1600/1235967428ZyNxGH6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    color: white;
+}
+
+/* OUR SERVICES */
+
+#our_services>.row>.col-12>b {
+    font-size: 30px;
+    padding-top: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+}
+
+/* protfolio */
+
+#protfolio {
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#protfolio>.row>.col-sm-12>.mb-4 {
+    font-size: small;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#protfolio-list {
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+#protfolio-list>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+#protfolio-list>li {
+    padding-top: 8px;
+}
+
+.protfolio-img {
+    margin-top: 20px;
+    height: 250px;
+    width: 355px;
+    display: block;
+    border: thin solid grey;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.protfolio-img:hover {
+    box-shadow: 10px 0px 0px 5px rgb(49, 48, 48);
+    filter: contrast(120%);
+    filter: hue-rotate(45deg);
+    filter: brightness(1.2);
+    filter: sepia(60%);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#exp {
+    color: white;
+    background-image: linear-gradient(to top left, rgba(72, 216, 166, 0.6), rgba(238, 30, 169, 0.7)), url("https://www.pixsy.com/wp-content/uploads/2021/04/ben-sweet-2LowviVHZ-E-unsplash-1.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.exp-text {
+    border: 10px solid white;
+    border-top: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+    padding-left: 25px;
+    font-weight: lighter;
+    word-spacing: 2px;
+}
+.exp-text-1{
+    border: 10px solid white;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+    padding-right: 25px;
+    font-weight: lighter;
+    word-spacing: 2px;
+}
+
+#bg-contactus {
+    background-image: linear-gradient(360deg, rgb(55, 65, 158, 0.8), rgba(55, 65, 140, 0.3)), url("https://i.stack.imgur.com/chfhv.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact-us {
+    background-color: #222c3b;
+    color: white;
+}
+
+.icons {
+    background-image: linear-gradient(90deg, rgb(240, 10, 140), rgba(28, 44, 182, 0.9));
+    border: none solid transparent;
+    padding: 12px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.icons:hover {
+    transform: scale(1.2) rotateX(10deg) rotateY(40deg);
+    background-image: linear-gradient(to top right, rgb(218, 58, 149), rgba(36, 56, 233, 0.9));
+    transition: 0.8s;
+    color: grey;
+}
+
+.os-txt {
+    font-size: small;
+    word-spacing: 3px;
+}
+
+.nav-pills>li {
+    margin: 5px 22px;
+    font-size: small;
+}
+
+.nav-pills>li>a {
+    text-decoration: none;
+    color: rgb(58, 56, 56);
+}
+
+.card:hover {
+    box-shadow: 7px 2px 3px 5px rgb(109, 107, 107);
+    transform: scale(105%);
+    transition: 0.2s;
+}
+
+.personal-adviser {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
